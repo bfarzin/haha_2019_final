@@ -5,7 +5,7 @@ Code assocaited with 3rd place finish in F1 score.
 
 1. Install conda with `conda env create -f environment.yml`
 3. place twitter data in `./data/all_file.txt`
-2. `source activate fastaiv1_dev1`
+2. `source activate fastaiv1_dev`
 3. `jupter notebook` in the home directory, go to the `LM Train in Notebook` and run
 4. Put `haha_2019_train.csv` and `haha_2019_test.csv` in `./data/` directory
 5. Run `Finetune LM` notebook
