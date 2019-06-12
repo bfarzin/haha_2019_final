@@ -27,7 +27,6 @@ def build_sp_data(model_path:str, corpus_fname:str, out_pkl_name:str, sp_model:s
                   vocab_size:int=60000, batch_size:int=64, verbose:bool=False,
                   tmp_file_name:str="tmp_data", backward:bool=False, model_type:str='bpe'):
     os.makedirs(model_path, exist_ok=True)
-    set_trace()
     PATH = Path(model_path)
     # corpus_fname = '../data/all_file.txt'
     # model_prefix = 'all_tweets_es_0509'
