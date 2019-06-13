@@ -1,6 +1,6 @@
 #!/bin/bash
 
-for n in {1..20};do \
+for n in {1..3};do \
     python regr_kfold.py \
 	   --model-path '../data/rnn/' \
 	   --sp-model '../all_tweets_es_0609' \
