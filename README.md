@@ -9,7 +9,10 @@ Code assocaited with 3rd place finish in F1 score.
 3. `jupter notebook` in the home directory, go to the `LM Train in Notebook` and run
 4. Put `haha_2019_train.csv` and `haha_2019_test.csv` in `./data/` directory
 5. Run `Finetune LM` notebook
-6. 
+6. `$cd ./prod/'  run `$./mult_seed_run_fwd_finetune.sh | tee --append out_fwd_1.txt`
+7. run run `$./mult_seed_regr_finetune.sh | tee --append out_reg_1.txt`
+Generate Submission entry:
+8. 
 
 
 Requires install of [Fast.ai library](https://github.com/fastai/fastai) for the Language Model and classification tasks
