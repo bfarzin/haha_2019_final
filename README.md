@@ -12,9 +12,8 @@ Code assocaited with 3rd place finish in F1 score.
 6. `$cd ./prod/'  run `$./mult_seed_run_fwd_finetune.sh | tee --append out_fwd_1.txt`
 7. run run `$./mult_seed_regr_finetune.sh | tee --append out_reg_1.txt`
 Generate Submission entry:
-8. 
+8. Run the `Ensemble 20 Seeds select best F1 0610.ipynb` Notebook for the classification
+9. Run the `Ensemble 20 modesl select best MSE 0610.ipynb` Notebook for the regression outputs on the test set
 
-
-Requires install of [Fast.ai library](https://github.com/fastai/fastai) for the Language Model and classification tasks
-
+Note:
 * Data is installed in the same directory in `./data/` directory (but not checked into this repo.)
